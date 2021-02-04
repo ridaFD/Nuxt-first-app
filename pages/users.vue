@@ -1,8 +1,8 @@
 <template>
   <div>
+    <nuxt-child />
     <input v-model="userId" type="text">
     <button @click="onLoadUser">Load User</button>
-    <nuxt-child />
   </div>
 </template>
 

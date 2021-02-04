@@ -1,15 +1,16 @@
 <template>
   <div>
-    <header>
-      USER SECTION
-    </header>
+    <Header />
     <Nuxt />
   </div>
 </template>
 
 <script>
+import Header from "@/components/Header";
+
 export default {
-name: "users"
+name: "users",
+  components: {Header}
 }
 </script>
 
