@@ -11,7 +11,8 @@ export default {
     console.log(data)
     // load the page if the id is number otherwise not
     return /^\d+$/.test(data.params.id)
-  }
+  },
+  layout: 'users'
 }
 </script>
 
