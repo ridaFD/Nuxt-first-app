@@ -6,7 +6,7 @@
 
 <script>
 export default {
-name: "_show"
+name: "index"
 }
 </script>
 
